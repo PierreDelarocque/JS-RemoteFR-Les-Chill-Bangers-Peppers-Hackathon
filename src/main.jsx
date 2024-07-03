@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+import "./Index.css";
 import App from "./App";
 import Accueil from "./pages/Accueil";
 import Daltonisme from "./pages/Daltonisme";
