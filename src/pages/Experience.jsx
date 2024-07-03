@@ -5,18 +5,26 @@ import datas from "../js/data";
 function Experience() {
   return (
     <>
-      <h1 className="text-5xl font-bold ">Expériences</h1>
-      <section>
-        <h2 className="text-4xl font-bold ">Vu des daltoniens</h2>
+      <h1 className="text-5xl font-bold flex justify-center mb-4">
+        Expériences
+      </h1>
+      <h2 className="text-4xl font-bold flex justify-center mb-4 ">
+        Vu des daltoniens
+      </h2>
+      <section className="flex flex-wrap justify-around">
         {datas.map((datas) => (
-          <section className="flex-row" key={datas.id}>
-            <img className="w-20" src={datas.images} alt={datas.titre} />
+          <section className="flex" key={datas.id}>
+            <img className="size-11" src={datas.images} alt={datas.titre} />
           </section>
         ))}
       </section>
-      <section>
-        <h2>Test d'Ishihara</h2>
-        <IshiharaTest />
+      <section className="flex-col">
+        <h2 className="text-4xl font-bold flex justify-center mb-4">
+          Test d'Ishihara
+        </h2>
+        <section className="flex justify-center">
+          <IshiharaTest />
+        </section>
       </section>
     </>
   );
