@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import DALTON from "../assets/images/DALTON.jpg";
 
+
 function Accueil() {
   return (
     <div className="h-screen flex">
@@ -18,9 +19,9 @@ function Accueil() {
           </button>
         </Link>
       </div>
-      <div className="w-1/2 flex items-center justify-center">
+      <div className="w-1/2 flex items-center justify-center bg-[#EEE7DF]">
         <img
-          className="w-full h-full object-cover"
+          className="w-[65%] h-[65%] object-cover "
           src={DALTON}
           alt="image daltonien"
         />

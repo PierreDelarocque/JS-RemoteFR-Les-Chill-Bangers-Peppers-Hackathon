@@ -1,7 +1,12 @@
+import Logo from "../assets/images/logo3.png";
+
 export default function NavBar() {
   return (
-    <nav className="bg-dark-blue p-4 shadow-md">
-      <ul className="flex justify-around items-center space-x-4 text-white">
+    <nav className="bg-dark-blue p-2 shadow-md flex items-center justify-between">
+      <div className="flex items-center">
+        <img src={Logo} className="h-16 w-auto" alt="Logo" />
+      </div>
+      <ul className="flex flex-1 justify-center items-center space-x-10 text-white">
         <li>
           <a href="/" className="hover:text-gray-300">
             Accueil
@@ -26,3 +31,4 @@ export default function NavBar() {
     </nav>
   );
 }
+

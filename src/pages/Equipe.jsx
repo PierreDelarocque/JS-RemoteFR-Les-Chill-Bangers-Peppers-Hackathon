@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import infosTeam from '../js/infosTeam';
-
+import Logo from "../assets/images/logo3.png";
 
 const Card = ({ image, name, role, github, linkedin }) => (
   <div className={`group before:hover:scale-95 before:hover:h-80 before:hover:w-64 before:hover:rounded-b-2xl before:transition-all before:duration-500 before:content-[''] before:w-64 before:h-40 before:rounded-t-2xl before:bg-gradient-to-bl from-sky-200 via-[#0072B2] to-[#0072B2] before:absolute before:top-0 w-64 h-72 relative bg-slate-50 flex flex-col items-center justify-center gap-2 text-center rounded-2xl overflow-hidden`}>
@@ -51,18 +51,18 @@ function Equipe () {
     <div className="flex flex-col items-center justify-center min-h-screen py-10">
       <div className="text-center mb-20">
         <h1 className="text-4xl font-bold mb-10">Qui sommes-nous ?</h1>
-      <div className="flex flex-wrap justify-center gap-4 mb-20">
-        {infosTeam.map((card, index) => (
-          <Card
-            key={index}
-            image={card.image}
-            name={card.name}
-            role={card.role}
-            github={card.github}
-            linkedin={card.linkedin}
-          />
-        ))}
-      </div>
+        <div className="flex flex-wrap justify-center gap-4 mb-20">
+          {infosTeam.map((card, index) => (
+            <Card
+              key={index}
+              image={card.image}
+              name={card.name}
+              role={card.role}
+              github={card.github}
+              linkedin={card.linkedin}
+            />
+          ))}
+        </div>
         <p className="text-lg max-w-2xl mx-auto">
           Nous sommes une équipe de développeurs web passionnés par l'accessibilité. 
           Nous avons voulu développer ce site pour sensibiliser les employés aux défis 
@@ -70,6 +70,9 @@ function Equipe () {
           est de créer une prise de conscience et de promouvoir des pratiques inclusives 
           dans le monde professionnel.
         </p>
+        <div className="flex justify-center mt-10">
+          <img src={Logo} className="h-[400px] w-auto" alt="Logo" />
+        </div>
         <h2 className="text-2xl max-w-2xl mx-auto mt-4 font-bold">
           Ce projet a été réalisé pour le Hackathon de la Wild Code School, axé sur l'inclusivité en milieu professionnel.
         </h2>

@@ -1,7 +1,7 @@
-import Amel from "../assets/amel.png";
-import Meg from "../assets/meg.jpg";
-import Nico from "../assets/nico.jpg";
-import Pedro from "../assets/pedro.jpg";
+import Amel from "../assets/images/amel.png";
+import Meg from "../assets/images/meg.jpg";
+import Nico from "../assets/images/nico.jpg";
+import Pedro from "../assets/images/pedro.jpg";
 
 const infosTeam = [
     {
