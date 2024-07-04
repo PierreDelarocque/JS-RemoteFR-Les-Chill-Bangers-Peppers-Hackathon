@@ -1,7 +1,7 @@
-import chien from "../assets/images/chien.jpg";
-import fruit from "../assets/images/fruitetlegume.jpg";
-import mms from "../assets/images/m&ms.jpg";
-import paysage from "../assets/images/paysage.jpg";
+import chien from "../assets/images/chien.png";
+import fruit from "../assets/images/fruitetlegime.png";
+import mms from "../assets/images/m&ms.png";
+import paysage from "../assets/images/paysage.png";
 
 const daltoniensList = [
   {
