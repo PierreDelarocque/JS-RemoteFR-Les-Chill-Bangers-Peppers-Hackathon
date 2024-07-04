@@ -61,9 +61,17 @@ function Daltonisme() {
           <h1 className="text-center text-xl w-full font-bold">Protanopia</h1>
           <p className="m-2">
             Les personnes souffrant de protanopie ont un manque ou une faible
-            sensibilité à la lumière pour percevoir correctement la rouge. En
-            effet le cône correspondant au rouge ne fonctionne pas, ce qui
-            affecte la perception des couleurs rouges et vertes.
+            sensibilité à la lumière pour percevoir correctement la rouge. Cette
+            condition, également connue sous le nom de dichromatie rouge, se
+            produit en raison de l`&apos;`inactivité des protocônes, cellules
+            sensibles à la partie rouge du spectre visible. Ceux qui souffrent
+            de cette condition perçoivent la couleur rouge sur une échelle de
+            tons beiges, ce qui peut être très déroutant lorsqu`&apos;`ils
+            interagissent avec le monde extérieur. On sait que la couleur rouge
+            est couramment utilisée pour attirer l`&apos;`attention des êtres
+            humains et véhiculer un message d`&apos;`alerte. Par conséquent,
+            l`&apos;`absence de rouge dans le campou visuel peut présenter un
+            danger pour les personnes atteintes de protanopie.
           </p>
         </section>
       )}
@@ -71,8 +79,13 @@ function Daltonisme() {
         <section className="flex flex-col items-center justify-center w-[35rem] h-[20rem] ">
           <h1 className="text-center text-xl w-full font-bold">Tritanopia</h1>
           <p className="m-2">
-            Le cône correspondant au bleu ne fonctionne pas, ce qui altère la
-            perception des couleurs bleues et jaunes.
+            Anomalie congénitale de la vision des couleurs, caractérisée par
+            l`&apos;`impossibilité de distinguer diverses couleurs du spectre
+            lumineux, du vert au violet. La tritanopie est une dyschromatopsie
+            (anomalie de la vision des couleurs) très rare. Le sujet qui en est
+            atteint confond essentiellement le vert, le bleu et le violet,
+            qu`&apos;`il voit en gris, avec des nuances d`&apos;`intensité. Il
+            n`&apos;`y a pas de traitement de cette affection.
           </p>
         </section>
       )}
