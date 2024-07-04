@@ -7,8 +7,8 @@ function Experience() {
       <h1 className="text-5xl font-bold flex justify-center mb-4">
         Expériences
       </h1>
-      <h2 className="text-4xl font-bold flex justify-center mb-4">
-        Vu des daltoniens
+      <h2 className="text-2xl font-bold flex justify-center mb-4">
+        Vous allez pouvoir observer comment chaque type de daltonisme peut percevoir une image
       </h2>
       <section className="flex justify-center">
         <button className="border hover:scale-95 duration-300 relative group cursor-pointer text-sky-50 overflow-hidden h-11 w-44 rounded-md bg-sky-200 p-2 flex justify-center items-center font-extrabold">
