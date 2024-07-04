@@ -26,4 +26,5 @@ const daltoniensList = [
   },
 ];
 
+
 export default daltoniensList;
