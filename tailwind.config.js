@@ -10,6 +10,10 @@ export default {
         "light-yellow": "#F0E442",
         "dark-yellow": "#D99A00",
       },
+      fontFamily: {
+        DM: "DM Sans",
+        I: "Inter",
+      },
     },
   },
   plugins: [],
