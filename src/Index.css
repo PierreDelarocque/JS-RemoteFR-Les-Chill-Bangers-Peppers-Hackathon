@@ -11,3 +11,50 @@ body,
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* LES BOUTONS */
+
+.select-content-button {
+  height: 80px;
+  width: 35rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: -10px -15px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 25px rgba(70, 70, 70, 0.5);
+}
+
+.select-content-button input[type="radio"] {
+  display: none;
+}
+
+.select-label-about {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: var(--second-font);
+  padding: 18px 15px;
+  border-radius: 35px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: black;
+}
+
+.select-content-button input[type="radio"]:checked + label {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.151),
+    10px 10px 15px rgba(0, 0, 0, 0.218);
+  background: linear-gradient(45deg, #f0e442, #d99a00);
+  color: white;
+  transform: translateY(-4px);
+  height: 70px;
+}
+
+.select-content-button input[type="radio"]:hover:not(:checked) + label {
+  box-shadow: inset 10px 10px 15px rgba(0, 0, 0, 0.151),
+    inset 10px 10px 15px rgba(0, 0, 0, 0.218);
+  width: 90%;
+}
