@@ -1,19 +1,28 @@
+import chien from "../assets/images/chien.jpg";
+import fruit from "../assets/images/fruitetlegume.jpg";
+import mms from "../assets/images/m&ms.jpg";
+import paysage from "../assets/images/paysage.jpg";
+
 const daltoniensList = [
   {
-    titre: "Normal",
-    images: "",
+    id: 1,
+    titre: "Chien",
+    images: chien,
   },
   {
-    titre: "Deuteranomaly",
-    images: "",
+    id: 2,
+    titre: "Fruit et Legume",
+    images: fruit,
   },
   {
-    titre: "Protanopia",
-    images: "",
+    id: 3,
+    titre: "M&ms",
+    images: mms,
   },
   {
-    titre: "Tritanopia",
-    images: "",
+    id: 4,
+    titre: "Un paysage",
+    images: paysage,
   },
 ];
 
