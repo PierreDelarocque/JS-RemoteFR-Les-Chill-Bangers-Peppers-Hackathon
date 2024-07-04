@@ -4,7 +4,7 @@ import DALTON from "../assets/images/DALTON.jpg";
 
 function Accueil() {
   return (
-    <div className="h-screen flex">
+    <div className="flex h-[89vh]">
       <div className="w-1/2 flex flex-col items-center justify-center space-y-4">
         <h1 className="font-DM text-left text-5xl font-bold">
           Experience Daltonisme

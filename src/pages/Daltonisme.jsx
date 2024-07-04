@@ -6,7 +6,7 @@ function Daltonisme() {
   return (
     <>
     <header>
-      <h1 className="text-4xl font-bold mb-10 mt-2 text-center">Les différents type de daltonisme</h1>
+      <h1 className="text-4xl font-bold mb-10 mt-2 text-center">Les différents types de daltonisme</h1>
     </header>
     <main className="flex flex-col-reverse items-center h-[70vh] ">
       <section className=" select-content-button ">
