@@ -4,7 +4,9 @@ export default function NavBar() {
   return (
     <nav className="bg-dark-blue p-2 shadow-md flex items-center justify-between">
       <div className="flex items-center">
-        <img src={Logo} className="h-16 w-auto" alt="Logo" />
+        <a href="/">
+          <img src={Logo} className="h-16 w-auto" alt="Logo" />
+        </a>
       </div>
       <ul className="flex flex-1 justify-center items-center space-x-10 text-white">
         <li>
@@ -31,4 +33,3 @@ export default function NavBar() {
     </nav>
   );
 }
-
