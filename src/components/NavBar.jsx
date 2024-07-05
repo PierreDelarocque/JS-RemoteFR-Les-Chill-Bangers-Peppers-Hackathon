@@ -1,20 +1,35 @@
+import Logo from "../assets/images/logo3.png";
+
 export default function NavBar() {
   return (
-    <menu>
-      <ul>
+    <nav className="bg-dark-blue p-2 shadow-md flex items-center justify-between">
+      <div className="flex items-center">
+        <a href="/">
+          <img src={Logo} className="h-16 w-auto" alt="Logo" />
+        </a>
+      </div>
+      <ul className="flex flex-1 justify-center items-center space-x-10 text-white">
         <li>
-          <a href="/">Accueil</a>
+          <a href="/" className="hover:text-gray-300">
+            Accueil
+          </a>
         </li>
         <li>
-          <a href="/daltonisme">Le daltonisme</a>
+          <a href="/daltonisme" className="hover:text-gray-300">
+            Le daltonisme
+          </a>
         </li>
         <li>
-          <a href="/experience">Expériences</a>
+          <a href="/experience" className="hover:text-gray-300">
+            Expériences
+          </a>
         </li>
         <li>
-          <a href="/equipe">L&apos;équipes</a>
+          <a href="/equipe" className="hover:text-gray-300">
+            L&apos;équipe
+          </a>
         </li>
       </ul>
-    </menu>
+    </nav>
   );
 }
