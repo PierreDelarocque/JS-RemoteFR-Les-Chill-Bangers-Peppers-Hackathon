@@ -70,7 +70,7 @@ function Equipe () {
           est de créer une prise de conscience et de promouvoir des pratiques inclusives 
           dans le monde professionnel.
         </p>
-        <div className="flex justify-center mt-10">
+        <div className="flex justify-center">
           <img src={Logo} className="h-[400px] w-auto" alt="Logo" />
         </div>
         <h2 className="text-2xl max-w-2xl mx-auto mt-4 font-bold">

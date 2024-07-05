@@ -4,7 +4,11 @@ function Daltonisme() {
   const [selectedSection, setSelectedSection] = useState("Deuteranomaly");
 
   return (
-    <main className="flex flex-col-reverse items-center ">
+    <>
+    <header>
+      <h1 className="text-4xl font-bold mb-10 mt-2 text-center">Les différents types de daltonisme</h1>
+    </header>
+    <main className="flex flex-col-reverse items-center h-[70vh] ">
       <section className=" select-content-button ">
         <input
           name="value-radio"
@@ -40,9 +44,9 @@ function Daltonisme() {
 
       {selectedSection === "Deuteranomaly" && (
         <section className="flex flex-col items-center justify-center w-[35rem] h-[30rem]  ">
-          <h1 className="text-center text-xl w-full font-bold">
+          <h2 className="text-center text-xl w-full font-bold">
             Deuteranomaly
-          </h1>
+          </h2>
           <p className="m-2">
             La deutéranopie est un type de daltonisme plus communément appelé
             daltonisme rouge-vert. Les personnes atteintes de cette maladie ont
@@ -58,7 +62,7 @@ function Daltonisme() {
       )}
       {selectedSection === "Protanopia" && (
         <section className="flex flex-col items-center justify-center w-[35rem] h-[30rem] ">
-          <h1 className="text-center text-xl w-full font-bold">Protanopia</h1>
+          <h2 className="text-center text-xl w-full font-bold">Protanopia</h2>
           <p className="m-2">
             Les personnes souffrant de protanopie ont un manque ou une faible
             sensibilité à la lumière pour percevoir correctement la rouge. Cette
@@ -77,7 +81,7 @@ function Daltonisme() {
       )}
       {selectedSection === "Tritanopia" && (
         <section className="flex flex-col items-center justify-center w-[35rem] h-[30rem] ">
-          <h1 className="text-center text-xl w-full font-bold">Tritanopia</h1>
+          <h2 className="text-center text-xl w-full font-bold">Tritanopia</h2>
           <p className="m-2">
             Anomalie congénitale de la vision des couleurs, caractérisée par
             l&apos;impossibilité de distinguer diverses couleurs du spectre
@@ -90,6 +94,7 @@ function Daltonisme() {
         </section>
       )}
     </main>
+    </>
   );
 }
 
