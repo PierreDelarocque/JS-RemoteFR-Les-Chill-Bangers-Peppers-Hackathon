@@ -46,6 +46,9 @@ function Conclusion() {
             <a href="/equipe" className="border hover:scale-95 duration-300 text-white bg-blue-500 hover:bg-blue-700 p-3 rounded-md">
               Voir l'équipe
             </a>
+            <a href="https://www.fr.colorlitelens.com/ishihara-test" target="_blank" rel="noopener noreferrer" className="border hover:scale-95 duration-300 text-white bg-blue-500 hover:bg-blue-700 p-3 rounded-md">
+              Faire un test de Daltonisme
+            </a>
             <a href="/" className="border hover:scale-95 duration-300 text-white bg-blue-500 hover:bg-blue-700 p-3 rounded-md">
               Retourner à l'accueil
             </a>
